@@ -1,0 +1,52 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.investors h1{
+    text-align: center; 
+    font-size: 50px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.investors p{
+    text-align: center; 
+    font-size: 30px; 
+    color: #6C6768;
+   margin-bottom: 20px;
+    padding: 0px 150px;
+}
+.investors h2 {
+    text-align: center; 
+    font-size: 40px;
+    padding-top: 100px;
+}
+#parent{
+    padding: 0px 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+.child{
+    /* border: 1px solid teal; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+    
+}
+.child img{
+    padding-top: 6px;
+}
+div h3{
+    font-size: 20px;
+    text-align: center;
+}
+div p {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+.logo{
+    width: 150px;
+   margin-left: 60px;
+}
